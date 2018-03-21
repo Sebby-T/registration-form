@@ -3,50 +3,58 @@
 <head>
   <meta charset="utf-8">
   <title>Registration form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-  <section>
-    <div class="">
-      <h1></h1>
+  <section class="contact pad-t-2 pad-b-2 gutter">
+    <div class="max-length">
+      <h1 class="push-0">Want to go to Mars?</h1>
       <hr>
-      <p></p>
+      <p class="pad-t-1-2 pad-b-1-2 mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
       <form class="" action="index.html" method="post">
-        <fieldset>
-          <legend></legend>
-          <div class="">
-            <label for="[object Object]"></label>
-            <input type="text" name="" value="">
+        <fieldset class="grid push">
+          <legend class="unit italic">Personal details</legend>
+          <div class="unit push">
+            <label for="name">Name</label>
+            <input id="name" required>
           </div>
-          <div class="">
-            <label for="[object Object]"></label>
-            <input type="text" name="" value="">
+          <div class="unit push">
+            <label for="number">Age</label>
+            <input id="number" required>
           </div>
-          <div class="">
-            <label for="[object Object]"></label>
-            <input type="text" name="" value="">
+          <div class="unit push">
+            <label for="email">Email</label>
+            <input id="email" required>
           </div>
-          <div class="">
-            <label for="[object Object]"></label>
-            <input type="text" name="" value="">
-          </div>
-          <div class="">
-            <label for="[object Object]"></label>
-            <select class="" name="">
-              <option></option>
+          <div class="unit push">
+            <label for="subject">Physical fitness</label>
+            <select id="subject">
+              <option>Super-human</option>
+              <option>Fit as a fiddle</option>
+              <option>Not terribly strong</option>
+              <option>A little couch-potato-y</option>
             </select>
           </div>
-          <div class="">
-            <label for="[object Object]"></label>
-            <input type="text" name="" value="">
+          <div class="unit push">
+            <label for="details">Address</label>
+            <textarea id="details" required></textarea>
           </div>
         </fieldset>
         <fieldset>
-          <legend></legend>
+          <legend class="italic">Mission statement</legend>
           <div class="">
-            <label for="[object Object]"></label>
-            <input type="text" name="" value="">
+            <label for="details">Why do you want to go to Mars?</label>
+            <textarea id="details" required></textarea>
           </div>
         </fieldset>
+        <div class="">
+          <button type="button">Register for the trip!</button>
+        </div>
       </form>
     </div>
   </section>
