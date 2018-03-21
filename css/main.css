@@ -3,6 +3,26 @@ html {
   background-color: #f2f2f2;
 }
 
+h1 {
+  border-bottom: 1px solid #000;
+}
+
 .contact {
   background-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  legend {
+    padding-right: 1rem;
+  }
+
+  .pad-l {
+    padding-left: .5rem;
+  }
+
+  .pad-r {
+    padding-right: .5rem;
+  }
+
 }
